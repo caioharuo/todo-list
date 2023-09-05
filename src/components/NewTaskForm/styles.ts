@@ -5,8 +5,6 @@ export const styles = StyleSheet.create({
   container: {
     position: 'relative',
     top: -27,
-    maxWidth: 327,
-    marginHorizontal: 24,
     flexDirection: 'row',
     justifyContent: 'center',
     gap: 4,
@@ -18,7 +16,7 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.GRAY[500],
     fontFamily: THEME.FONT_FAMILY.REGULAR,
     fontSize: THEME.FONT_SIZE.MD,
-    color: THEME.COLORS.WHITE,
+    color: THEME.COLORS.GRAY[100],
     borderRadius: 6,
   },
   button: {
