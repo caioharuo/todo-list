@@ -3,7 +3,10 @@ import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: THEME.COLORS.GRAY['600'],
+    width: '100%',
+    height: 173,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: THEME.COLORS.GRAY['700'],
   },
 });
