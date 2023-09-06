@@ -1,9 +1,9 @@
-import { Text, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 
 import { Header } from '../../components/Header';
 import { NewTaskForm } from '../../components/NewTaskForm';
+import { TaskCard } from '../../components/TaskCard';
 import { styles } from './styles';
-import { EmptyTasks } from '../../components/EmptyTasks';
 
 export function Home() {
   return (
@@ -25,7 +25,11 @@ export function Home() {
             </View>
           </View>
 
-          <EmptyTasks />
+          {/* <EmptyTasks /> */}
+
+          <ScrollView>
+            <TaskCard />
+          </ScrollView>
         </View>
       </View>
     </View>
